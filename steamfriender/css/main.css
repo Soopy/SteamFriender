@@ -1,0 +1,312 @@
+body{
+    background-color:#121212;
+	font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+    font-size:12px;
+    font-family : Arial, Helvetica, "Nimbus Sans L", "Liberation Sans", FreeSans, Sans-serif;
+    color:#EFEFEF;
+    margin-left:0;
+    margin-right:0;
+    margin-top:0;
+    margin-bottom:0;
+}
+
+#game_background{
+	height:570px;
+	width:1004px;
+	background-repeat:no-repeat;
+	position:absolute;
+	margin:auto;
+	left:0;
+	right:0;
+}
+
+#search_result{
+position:relative;
+top:200px;
+}
+
+#nav_bar{
+	position:relative;
+	background-image: linear-gradient(bottom, rgb(41,40,41) 38%, rgb(51,50,51) 67%, rgb(56,56,56) 86%);
+	background-image: -o-linear-gradient(bottom, rgb(41,40,41) 38%, rgb(51,50,51) 67%, rgb(56,56,56) 86%);
+	background-image: -moz-linear-gradient(bottom, rgb(41,40,41) 38%, rgb(51,50,51) 67%, rgb(56,56,56) 86%);
+	background-image: -webkit-linear-gradient(bottom, rgb(41,40,41) 38%, rgb(51,50,51) 67%, rgb(56,56,56) 86%);
+	background-image: -ms-linear-gradient(bottom, rgb(41,40,41) 38%, rgb(51,50,51) 67%, rgb(56,56,56) 86%);
+	width:100%;
+	height:60px;
+}
+
+#steam_login{
+	position:absolute;
+	margin:auto;
+	left:0;
+	right:0;
+	top:125px;
+	width:650px;
+	height:400px;
+	border-top-right-radius:10px 10px;
+    border-top-left-radius:10px 10px;
+	border-bottom-right-radius:10px 10px;
+    border-bottom-left-radius:10px 10px;
+    -moz-border-radius-topright:10px 10px;
+    -moz-border-radius-topleft:10px 10px;
+	-moz-border-radius-bottomright:10px 10px;
+    -moz-border-radius-bottomleft:10px 10px;
+	background-image: linear-gradient(bottom, rgb(41,40,41) 38%, rgb(51,50,51) 67%, rgb(56,56,56) 86%);
+	background-image: -o-linear-gradient(bottom, rgb(41,40,41) 38%, rgb(51,50,51) 67%, rgb(56,56,56) 86%);
+	background-image: -moz-linear-gradient(bottom, rgb(41,40,41) 38%, rgb(51,50,51) 67%, rgb(56,56,56) 86%);
+	background-image: -webkit-linear-gradient(bottom, rgb(41,40,41) 38%, rgb(51,50,51) 67%, rgb(56,56,56) 86%);
+	background-image: -ms-linear-gradient(bottom, rgb(41,40,41) 38%, rgb(51,50,51) 67%, rgb(56,56,56) 86%);
+	}
+
+#questions{
+	position:relative;
+	margin:auto;
+	top:75px;
+}
+
+#avatar{
+	position:absolute;
+	right:25px;
+	top:20px;
+}
+
+#personaname{
+	position:absolute;
+	right:25px;
+	top:0px;
+	font-weight:bold;
+}
+
+#game_list{
+	position:absolute;
+	margin-left:auto;
+	margin-right:auto;
+	left:0;
+	right:0;
+	width:960px;
+	top:130px;
+	background-color:#212121;
+}
+
+#coop_list, #local_coop_list, #multiplayer_list{
+	position:absolute;
+	margin-left:auto;
+	margin-right:auto;
+	left:0;
+	right:0px;
+	width:960px;
+	top:130px;
+	background-color:#212121;
+	display:none;
+}
+
+#game_list_btn{
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	top:53px;
+	padding:3px;
+	right:439px;
+	width:75px;
+	text-align:center;
+	cursor:pointer;
+	background-color:#212121;
+}
+
+#coop_list_btn{
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	top:32px;
+	padding:3px;
+	right:350px;
+	width:85px;
+	text-align:center;
+	cursor:pointer;
+	background-color:#212121;
+	opacity:0.5;
+}
+
+#local_coop_list_btn{
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	top:11px;
+	padding:3px;
+	right:235px;
+	width:125px;
+	text-align:center;
+	cursor:pointer;
+	background-color:#212121;
+	opacity:0.5;
+}
+
+#multiplayer_list_btn{
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	top:-10px;
+	padding:3px;
+	right:100px;
+	width:125px;
+	text-align:center;
+	cursor:pointer;
+	background-color:#212121;
+	opacity:0.5;
+}
+
+#friend_image{
+	position:absolute;
+	margin-left:auto;
+	margin-right:auto;
+	top:350px;
+	width:64px;
+	left:0px;
+	right:0px;
+}
+
+#view_game{
+	position:absolute;
+	margin-left:auto;
+	margin-right:auto;
+	right:0;
+	left:0;
+	top:60px;
+	/*border: 1px solid #323232;*/
+}
+
+#game_txt{
+	position:absolute;
+	margin-left:auto;
+	margin-right:auto;
+	right:0;
+	left:0;
+	top:-40px;
+}
+
+#view_game_logo{
+	position:absolute;
+	margin-left:auto;
+	margin-right:auto;
+	right:0;
+	left:0;
+}
+
+#relevance{
+	width:100px;
+	border: 1px solid #323232;
+	height:15px;
+	border-top-right-radius:5px 5px;
+    border-top-left-radius:5px 5px;
+	border-bottom-right-radius:5px 5px;
+    border-bottom-left-radius:5px 5px;
+    -moz-border-radius-topright:5px 5px;
+    -moz-border-radius-topleft:5px 5px;
+	-moz-border-radius-bottomright:5px 5px;
+    -moz-border-radius-bottomleft:5px 5px;
+}
+
+#relevance_bar{
+	height:15px;
+	background-color:red;
+	border-top-right-radius:5px 5px;
+    border-top-left-radius:5px 5px;
+	border-bottom-right-radius:5px 5px;
+    border-bottom-left-radius:5px 5px;
+    -moz-border-radius-topright:5px 5px;
+    -moz-border-radius-topleft:5px 5px;
+	-moz-border-radius-bottomright:5px 5px;
+    -moz-border-radius-bottomleft:5px 5px;
+}
+
+
+.type{
+	position:relative;
+	float:left;
+	padding:10px;
+	top:135px;
+	margin-left:auto;
+	margin-right:auto;
+	right:0;
+	left:0;
+}
+
+#type_group{
+	position:absolute;
+	margin-left:360px;
+	margin-right:auto;
+	right:0;
+	left:0;
+	font-weight:bold;
+}
+
+#playnow{
+	position:absolute;
+	margin-left:650px;
+	margin-right:auto;
+	width:80px;
+	text-align:center;
+	right:0;
+	left:0;
+	font-size:18px;
+	top:155px;
+	z-index:3;
+	/*background-color:#343434;*/
+}
+
+#matches{
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	right:0;
+	left:0;
+	top:45px;
+	background-color:#121212;
+		border-top-right-radius:5px 5px;
+    border-top-left-radius:5px 5px;
+	border-bottom-right-radius:5px 5px;
+    border-bottom-left-radius:5px 5px;
+    -moz-border-radius-topright:5px 5px;
+    -moz-border-radius-topleft:5px 5px;
+	-moz-border-radius-bottomright:5px 5px;
+    -moz-border-radius-bottomleft:5px 5px;
+
+}
+
+.yes{
+	position:relative;
+	top:4px;
+}
+
+.no{
+	position:relative;
+	top:4px;
+}
+
+
+.game_img{
+	cursor:pointer;
+}	
+
+a:link {
+    text-decoration:none;
+    color:#FFFFFF;
+}
+
+a:visited {
+    text-decoration:none;
+    color:#FFFFFF;
+}
+
+a:active {
+    text-decoration:none;
+    color:#FFFFFF;
+}
+
+a:hover {
+    text-decoration:none;
+    color:#42647f;
+}
